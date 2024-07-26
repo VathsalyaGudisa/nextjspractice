@@ -1,0 +1,41 @@
+/* Container for the navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e1e2f;
+    padding: 10px 20px;
+}
+
+/* Logo styling */
+.nav div:first-child {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Links container */
+.nav div:last-child {
+    display: flex;
+    gap: 15px;
+}
+
+/* Links styling */
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+/* Hover effect for links */
+.nav a:hover {
+    background-color: #3e3e5f;
+}
+
+/* Active link styling */
+.nav a.active {
+    background-color: white;
+    color: #1e1e2f;
+}
